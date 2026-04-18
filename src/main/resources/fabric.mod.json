@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ntpc",
+  "version": "1.0.0",
+  "name": "No Tree Punching Compatibility",
+  "description": "Adds Plant Fiber drops to modded grass for No Tree Punching.",
+  "authors": ["Priesty"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ntpc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ntpc.NTPC"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*",
+    "notreepunching": "*"
+  },
+  "suggests": {
+	"regions_unexplored": "*"
+  }
+}
